@@ -1,0 +1,298 @@
+body, html
+{
+    height: 100%;
+}
+h1
+{
+    min-width: 80%;
+    font-size: 2.5em;
+}
+
+.topnav
+{
+    background: none;
+    overflow: hidden;
+}
+
+#nav1
+{
+    background-color: #113;
+    opacity: 0.8;
+    overflow: hidden;
+}
+
+.topnav a
+{
+    float: right;
+    color:#ddd;
+    text-align: center;
+    padding: 4px 10px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.topnav a[href="index.html"]
+{
+    float: left;
+}
+
+.topnav a:hover
+{
+    background-color: #ddd;
+    color: black
+}
+
+.topnav .active
+{
+    background-color: #CACA66;
+    opacity: 0.5;
+
+    color: black;
+}
+
+.background-image
+{
+    background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 0, 0.5)), url(/images/IMG_2346.jpg);
+    height: 100%;
+    background-position: 40% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+.background-in
+{
+    background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 0, 0.5)), url(/images/toolik.jpg);
+    height: 20%;
+    background-position: 40% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+}
+
+.popping-text
+{
+    display: inline-block;
+    padding-top: 120px;
+    color: white;
+    font-size: 1.25em;
+    font-family: helvetica;
+    text-shadow: 2px 2px #000;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.popping-text h1
+{
+    text-transform: uppercase;
+}
+
+#self-title
+{
+    margin-top: 40px;
+    height: 10px;
+    font-size: 15px;
+}
+.enter-button a
+{
+    border: white solid .5px;
+    height: 50px;
+    width: 200px;
+    margin-top: 50px;
+    display: inline-block;
+    background-color: none;
+    font-size: 1.25rem;
+    font-family: verdana;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+.enter-button a:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
+
+.social
+{
+    float: center;
+
+}
+
+.social a
+{
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    margin-top: 75px;
+
+}
+
+#fb:hover
+{
+    background: #3B5998;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+#twitter:hover
+{
+    background: #55ACEE;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+#ig:hover
+{
+    background: linear-gradient(45deg, #FEDA77, #F58529 , #DD2A7B, #DD2A7B, #8134AF, #8134AF, #515BD4);
+    border-radius: 50%;
+    text-decoration: none;
+
+}
+
+#in:hover
+{
+    background: #0077B5;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.quote-box
+{
+    text-align: center;
+}
+hr
+{
+    margin: 15px 40px 15px 40px;
+}
+.quote
+{
+    display: inline-block;
+    font-family: garamond;
+    font-size: 17px;
+    color: #113;
+    opacity: 0.8;
+
+}
+.att
+{
+    font-family: garamond;
+    font-size: 13px;
+    color: #113;
+    opacity: 0.5;
+}
+
+.soft-box
+{
+    display: inline-block;
+    background-color: #eee;
+    text-align: center;
+    border: 1px gray solid;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+.talks
+{
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.row
+{
+    height: 50%;
+    width: 100%;
+}
+
+
+
+
+/*TABLET*/
+
+@media only screen and (min-width: 768px)
+{
+    .topnav a
+    {
+        padding: 4px 16px;
+        font-size: 17px;
+    }
+
+    .popping-text
+    {
+        padding-top: 200px;
+        font-size: 2em;
+    }
+
+    .social a
+    {
+        color: white;
+        font-size: 35px;
+        padding: 5px;
+        margin-top: 75px;
+        width: 10%;
+    }
+    #self-title
+    {
+        height: 30px;
+        font-size: 20px;
+    }
+    #hostbox-lg
+    {
+        display: inline;
+    }
+    #hostbox
+    {
+        display: none;
+    }
+
+    hr
+    {
+        margin: 15px 80px 15px 80px;
+    }
+    .quote
+    {
+        font-size: 27px;
+    }
+    .att
+    {
+        font-size: 23px;
+    }
+    .soft-box
+    {
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px 15px 10px 15px;
+    }
+}
+
+/*DESKTOP*/
+
+@media only screen and (min-width: 1024px)
+{
+    .topnav a
+    {
+        padding: 14px 16px;
+        font-size: 17px;
+    }
+
+    .popping-text
+    {
+        padding-top: 150px;
+        font-size: 2em;
+    }
+        .quote
+    {
+        font-size: 33px;
+    }
+    .att
+    {
+        font-size: 25px;
+    }
+    .soft-box
+    {
+    font-size: 45px;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    }
+
+}
