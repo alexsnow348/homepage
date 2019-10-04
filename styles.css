@@ -94,26 +94,9 @@ h1
     height: 10px;
     font-size: 15px;
 }
-.enter-button a
-{
-    border: white solid .5px;
-    height: 50px;
-    width: 200px;
-    margin-top: 50px;
-    display: inline-block;
-    background-color: none;
-    font-size: 1.25rem;
-    font-family: verdana;
-    padding: 10px;
-    color: white;
-    text-shadow: 2px 2px #000;
-}
 
-.enter-button a:hover
-{
-    background-color: red;
-    cursor: pointer;
-}
+
+
 
 .social
 {
