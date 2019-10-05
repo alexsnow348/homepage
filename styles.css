@@ -141,6 +141,13 @@ h1
     border-radius: 50%;
     text-decoration: none;
 }
+
+#github:hover
+{
+    background: black;
+    border-radius: 50%;
+    text-decoration: none;
+}
 .quote-box
 {
     text-align: center;
