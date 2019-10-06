@@ -10,8 +10,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        
         <title>Kyle Zollo: Web Developer</title>
     </head>
     <body>
@@ -40,9 +40,14 @@
                <!--<a id="fb" href="#" class="fa fa-facebook"></a>-->
             </div>
         </div>
-    
-        <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-     
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+         $(document).ready(function(){
+             $(".background-image").animate({opacity: 1}, {duration: 3000})
+         })
+     </script>
     </body>
+          
 </html>
